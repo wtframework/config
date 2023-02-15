@@ -1,0 +1,21 @@
+{
+  "name": "wtframework/config",
+  "description": "What the Framework?! config",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WTFramework\\Config\\": "src/"
+    }
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.22"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": false
+    }
+  }
+}
