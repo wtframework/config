@@ -4,12 +4,10 @@ declare(strict_types=1);
 
 namespace WTFramework\Config;
 
-class Config
+abstract class Config
 {
 
   protected static array $config = [];
-
-  private function __construct() {}
 
   public static function set(
     #[\SensitiveParameter] string|array $config,
